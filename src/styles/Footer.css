@@ -1,0 +1,24 @@
+.Footer {
+    /* Use Flexbox */
+   color: white;
+   height: 100px;
+   background-color: rgb(209, 181, 23);
+   text-align: center;
+   padding: 20px;
+ }
+ 
+ .social-icons {
+   list-style-type: none; /* Remove default bullets */
+   padding-left: 0; /* Remove default padding */
+   margin: 10px; /* Remove default margin */
+   display: flex; /* Align icons in a single line */
+   gap: 20px; /* Space between the icons */
+   display: flex;
+   justify-content: center; /* Center horizontally */
+   align-items: center; /* Center vertically */
+ }
+ 
+ .social-icons img {
+   width: 35px; /* Adjust the size of the icons */
+   height: auto;
+ }

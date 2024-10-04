@@ -1,0 +1,52 @@
+.Nav li a {
+    text-decoration: none;
+  }
+  .Nav li {
+    padding: 1rem;
+    font-size: 20px;
+  }
+  
+  .Nav {
+    display: flex;
+    justify-content: space-between; /* This will push the logo to the left and the hamburger to the right */
+    align-items: center;
+    padding: 0 20px; /* Adjust padding as needed */
+  }
+  .nav-ul {
+    position: absolute; /* This makes the nav menu overlap the content when open */
+    top: 60px; /* Adjust based on your header height */
+    right: 20px; /* Align the nav menu to the right */
+    background-color: white; /* Adjust background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+    padding: 10px 20px;
+  }
+  .nav-ul ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .hamburger-menu {
+    padding: 10px; /* Adjust padding as needed */
+    background-color: red;
+  }
+  .hamburger-menu {
+    padding: 3px;
+    background-color: rgb(209, 181, 23); /* Adjust background color as needed */
+    border-radius: 50%; /* Optional: makes the background circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow to the icon */
+  }
+  .hamburger-menu .hamburger-react {
+    color: white; /* Adjust the icon color to ensure contrast against the background */
+  }
+  .name-p {
+    font-size: 25px;
+    font-family: sora;
+  }
+  .name a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(209, 181, 23);
+  }

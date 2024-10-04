@@ -1,0 +1,15 @@
+.investment-container {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .investment-title {
+    color: #333;
+  }
+  
+  .investment-content {
+    color: #666;
+  }
+  
